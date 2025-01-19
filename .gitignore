@@ -1,0 +1,18 @@
+# Exclude .env and creds file containing sensitive info
+.env
+cred/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Terraform folder
+.terraform/
+
+# Crash logs
+crash.log
+
+# OS / Editor temporary files
+.DS_Store
+.idea/
+.vscode/
